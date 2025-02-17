@@ -1,0 +1,19 @@
+name = "test-cluster"
+
+[control_plane]
+replicas = 3
+vm_engine = "parallels"
+
+[control_plane.vm_config]
+cpu_count = 4
+memory_bytes = 4294967296
+disk_size_bytes = 107374182400
+
+[workers]
+replicas = 3
+vm_engine = "parallels"
+
+[workers.vm_config]
+cpu_count = 4
+memory_bytes = 4294967296
+disk_size_bytes = 107374182400
