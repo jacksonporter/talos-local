@@ -1,0 +1,6 @@
+{
+  "name": "test-cluster",
+  "controlPlane": {
+    "replicas": 3
+  }
+}

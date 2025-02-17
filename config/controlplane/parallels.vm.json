@@ -1,0 +1,7 @@
+{
+  "name_prefix": "talos-linux",
+  "cpus": 4,
+  "memory": 4096,
+  "disk_size": 102400,
+  "network": "shared"
+}
